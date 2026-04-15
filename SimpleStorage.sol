@@ -6,7 +6,7 @@ contract SimpleStorage {
 
     int256[] listOfMagicNumbers;
 
-    function store( int256 _magic_number ) public {
+    function store( int256 _magic_number ) virtual public {
         magic_number = _magic_number;
     }
 
